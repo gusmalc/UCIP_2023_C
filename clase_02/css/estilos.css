@@ -1,0 +1,19 @@
+h1{
+    color: #00f;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 25px;
+    color: #fff;
+}
+
+body{
+    background-color: #222;
+}
+
+#titulo_rojo{
+    color: #f00;
+    font-size: 20px;
+}

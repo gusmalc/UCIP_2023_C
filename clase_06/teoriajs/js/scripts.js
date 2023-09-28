@@ -2,7 +2,7 @@ let nombre = "222";
 
 const n = 25;
 
-let dias = ['Lunes','Martes','Miercole',2023]; // array
+let dias = ['Lunes','Martes','Miercoles',2023]; // array
 
 
 // alert(typeof nombre);

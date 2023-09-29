@@ -1,0 +1,19 @@
+#contenedor_resultado{
+    border: solid 1px #ccc;
+    padding: 20px;
+}
+
+#resultado{
+    background: #222;
+    color: #fff;
+    font-size: 3rem;
+    padding: 10px;
+}
+
+.btn{
+    border-radius: 0px;
+}
+
+.form-control{
+    border-radius: 0px;
+}

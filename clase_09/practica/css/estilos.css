@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo{
+    background: #222;
+    color: #fff;
+    padding: 15px;
+}
+
+#app{
+    display: flex;
+}
+
+#sx{
+    background: #ccc;
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dx{
+    background: #cfe50a;
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resultado{
+    height: 100px;
+    width: 60%;
+    background: #222;
+}
+
+#teclado{
+    width: 230px;
+    height: 230px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+#teclado>div{
+    width: 50px;
+    height: 50px;
+    background: #222;
+    color: #fff;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#teclado>div:hover{
+    background: #e72525;
+}
+
+#caja-visor{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}

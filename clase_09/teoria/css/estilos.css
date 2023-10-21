@@ -1,0 +1,87 @@
+:root{
+    --color1: #ff9900;
+    --color2: #0f0;
+    --wcaja: 200px;
+}
+
+h1{
+    color: var(--color1);
+    transform: rotate(180deg);
+    text-align: center;
+}
+
+.caja{
+    cursor: pointer;
+    width: var(--wcaja);
+    height: 30px;
+    background: var(--color1);
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in;
+}
+
+.caja:hover{
+    background: var(--color2);
+    width: 300px;
+}
+
+.caja2{
+    width: 100px;
+    height: 100px;
+    background: #ff9900;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in;
+}
+
+.caja2:hover{
+    border-radius: 50%;
+}
+
+
+
+#pelota{
+    width: 100px;
+    height: 100px;
+    background: #00e5ff;
+    border-radius: 50%;
+    animation-name: movimiento;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;    
+}
+#pelota2{
+    width: 100px;
+    height: 100px;
+    background: #00e5ff;
+    border-radius: 50%;
+    animation-name: movimiento2;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;    
+}
+@keyframes movimiento{
+    0%{
+        transform: translateX(0px) scale(0);        
+    }
+    50%{
+        background: #3cff00;
+    }
+    100%{
+        transform: translateX(500px) scale(2);
+    }    
+}
+@keyframes movimiento2{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        background: #3cff00;
+    }
+    100%{
+        transform: translateX(800px);
+    }    
+}

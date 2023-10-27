@@ -1,0 +1,12 @@
+body{
+    background: #fff;
+    color: #222;
+}
+.color_rojo{
+    color: #f00;
+}
+
+.color_verde{
+    color: #0f0;
+    text-align: right;
+}

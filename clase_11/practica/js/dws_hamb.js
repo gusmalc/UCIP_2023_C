@@ -79,4 +79,4 @@ class DWS_hamb extends HTMLElement{
    }
     
 }
-window.customElements.define("dws-hamb2", DWS_hamb);
+window.customElements.define("dws-hamb", DWS_hamb);

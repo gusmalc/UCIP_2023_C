@@ -1,4 +1,4 @@
-class DWS_hamb2 extends HTMLElement{
+class DWS_hamb extends HTMLElement{
     // version: 1.0.0
     constructor(){
         super();
@@ -79,4 +79,4 @@ class DWS_hamb2 extends HTMLElement{
    }
     
 }
-window.customElements.define("dws-hamb2", DWS_hamb2);
+window.customElements.define("dws-hamb2", DWS_hamb);
